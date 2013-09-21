@@ -4,7 +4,7 @@ patchBin
 Easily Patch Binary Files
 
 Usage:
- 
+
 patchBin [byte size] [offset] [hex to be written] [file]
  
 patchBin -h : Displays Help
