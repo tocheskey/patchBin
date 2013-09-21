@@ -6,22 +6,17 @@ Easily Patch Binary Files
 Usage:
 ______
 
-patchBin [byte size] [offset] [hex to be written] [file]
- 
-patchBin -h : Displays Help
-
-patchBin -v : Displays Version
-
-patchBin -c : Displays Credits
+- patchBin [byte size] [offset] [hex to be written] [file]
+- patchBin -h : Displays Help
+- patchBin -v : Displays Version
+- patchBin -c : Displays Credits
  
 Supported Byte Sizes:
 _____________________
  
-2 Byte
-
-4 Byte 
-
-8 Byte
+- 2 Byte
+- 4 Byte 
+- 8 Byte
  
 Example:
 _________
