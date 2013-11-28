@@ -6,7 +6,7 @@ Easily Patch Binary Files
 Usage:
 ______
 
-- patchBin [byte size] [offset] [hex to be written] [file]
+- patchBin [file] : Start Patching
 - patchBin -h : Displays Help
 - patchBin -v : Displays Version
 - patchBin -c : Displays Credits
@@ -14,16 +14,16 @@ ______
 Supported Byte Sizes:
 _____________________
  
-- 2 Byte
-- 4 Byte 
-- 8 Byte
+- Any (new)
  
 Example:
 _________
 
-TheiPad:/var/mobile/ root# patchBin 4 0x123456 0x1eff2fe1 /var/mobile/binary
+TheiPad:/var/mobile/ root# patchBin /var/mobile/binary
 
 - [+] Opening File for writing
+- [+] Enter the Offset to write to: 
+- [+] Enter the Data to write: 
 - [+] Found Position for writing
 - [+] Patching File
 - [+] Closing File
