@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#define TOOL_VERSION "1.1.0"
+#define TOOL_VERSION "1.1.1"
 
 //display the Help if the user enters -h or an invalid argument count
 void displayHelp(const char *fn) {
